@@ -1,0 +1,13 @@
+.selectButtonContainer {
+    margin-top: calc(5vh);
+    margin-left: calc(60vw);
+    text-align: 'center';
+}
+
+.selectButton {
+    width: 125px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 4px solid #AA0140;
+}

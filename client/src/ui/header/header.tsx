@@ -7,12 +7,12 @@ function Header() {
   return (
     <div>
       <div className={styles.headerContainer}>
-        <Row gutter={50}>
+        <Row gutter={70}>
           <Col>
             Noveila
           </Col>
           <Col>
-            <Input type='text' placeholder='검색어를 입력하세요'/>
+            <Input style={{width: 500, textAlign: 'center'}} type='text' placeholder='검색어를 입력하세요'/>
           </Col>
           <Col>
             <BellOutlined />
