@@ -1,0 +1,9 @@
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100vw);
+    height: calc(5vh);
+    color: #000000;
+}
+  

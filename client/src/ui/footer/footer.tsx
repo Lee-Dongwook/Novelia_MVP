@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div>
       <div className={styles.footerContainer}>
-        <Row gutter={16}>
+        <Row gutter={50}>
           <Col>
             <Link to="/privacy" className={styles.footerLink}>
               개인정보처리방침
