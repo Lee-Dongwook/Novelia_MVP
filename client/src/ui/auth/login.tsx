@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Form, Input, Button } from 'antd';
-import type { Role, Platform ,Author, Reader } from '../../domain/user';
 import styles from './login.module.css'
 
 function Login() {
