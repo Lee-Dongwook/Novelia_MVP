@@ -1,21 +1,22 @@
-type Role = 'author' | 'reader'
-type Platform = '네이버시리즈' | '카카오페이지' | '네이버웹소설' | '카카오스테이지' | '문피아' | '조아라' | '기타'
+export type Role = 'author' | 'reader'
+export type Platform = '네이버시리즈' | '카카오페이지' | '네이버웹소설' | '카카오스테이지' | '문피아' | '조아라' | '없음'
 
 interface User{
-    email: string
     nickname: string
     gender: string
-    age: number
-    phone: number
+    age: string
+    email: string
+    password: string
+    phone: string
     role: Role
 }
 
 export interface Author extends User {
-    career?: number
+    career?: string
     platform?: Platform[]
 }
 
 export interface Reader extends User {
-    experience?: number
+    experience?: string
     platform?: Platform[]
 }

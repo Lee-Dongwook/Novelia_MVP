@@ -5,6 +5,8 @@ import Header from './ui/header/header.tsx';
 import Footer from './ui/footer/footer.tsx';
 
 import Main from './ui/main/main.tsx';
+import Login from './ui/auth/login.tsx';
+import SignUp from './ui/auth/signup.tsx';
 
 function App() {
   return(
@@ -12,6 +14,8 @@ function App() {
     <Header />
     <Routes>
       <Route path='/' element ={<Main />} />
+      <Route path='/login' element={<Login />} />
+      <Route path='/sign' element={<SignUp />} />
     </Routes>
     <Footer />
   </Router>
