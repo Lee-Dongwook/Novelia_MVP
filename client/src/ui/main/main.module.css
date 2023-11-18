@@ -1,3 +1,12 @@
+.imageSliderContainer{
+    justify-content: center;
+    align-items: center;
+    width: calc(50vw);
+    height: calc(20vh);
+    margin-left: calc(25vw);
+}
+
+
 .selectButtonContainer {
     margin-top: calc(5vh);
     margin-left: calc(60vw);

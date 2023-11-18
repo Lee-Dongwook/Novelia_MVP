@@ -1,18 +1,19 @@
 import { Button, Carousel, Image } from 'antd';
 import styles from './main.module.css';
 import { imageSliderConfig } from '../../lib/imageSliderConfig';
+import banner from '../../image/banner.png';
 
 function Main() {
 
   return (
     <div>
-      <div>
+      <div className = {styles.imageSliderContainer}>
         <Carousel {...imageSliderConfig}>
           <div>
-            <Image />
+            <Image src={banner} alt='배너' style={{height: 'calc(20vh)'}} />
           </div>
           <div>
-            <Image />
+            <Image src={banner} alt='설명' style={{height: 'calc(20vh)'}}/>
           </div>
         </Carousel>
       </div>
