@@ -1,5 +1,8 @@
 export interface Novel {
-    image?: string
+    id: string
     title: string
-    genre: string
+    image?: string
+    genre?: string
+    description?: string
+    content?: string
 }

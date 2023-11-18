@@ -9,7 +9,7 @@
 
 .selectButtonContainer {
     margin-top: calc(5vh);
-    margin-left: calc(60vw);
+    margin-left: calc(62vw);
     text-align: 'center';
 }
 
@@ -19,4 +19,11 @@
     font-size: 16px;
     font-weight: 400;
     border-bottom: 4px solid #AA0140;
+}
+
+.novelContainer {
+    margin-left: calc(25vw);
+    width: calc(50vw);
+    height: calc(30vh);
+    overflow-y: auto;
 }

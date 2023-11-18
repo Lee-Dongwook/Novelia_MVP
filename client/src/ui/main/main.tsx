@@ -1,7 +1,9 @@
+import {useState} from 'react';
 import { Button, Carousel, Image } from 'antd';
 import styles from './main.module.css';
 import { imageSliderConfig } from '../../lib/imageSliderConfig';
 import banner from '../../image/banner.png';
+import NovelList from './novel/novel';
 
 function Main() {
 
@@ -20,6 +22,9 @@ function Main() {
       <div className={styles.selectButtonContainer}>
         <Button className={styles.selectButton}>추천순</Button>
         <Button className={styles.selectButton}>시간순</Button>
+      </div>
+      <div className={styles.novelContainer}>
+      <NovelList />
       </div>
     </div>
   );
