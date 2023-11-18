@@ -1,5 +1,8 @@
 .startContainer {
-    width: calc(100vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     height: calc(85vh);
     border: 1px solid black;
     border-radius: 10px;

@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: calc(100vw);
+    width: 100%;
     height: calc(5vh);
     background-color: #d9d9d9;
     color: #000000;
