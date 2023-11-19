@@ -8,6 +8,7 @@ import Start from './ui/start/start.tsx';
 import Main from './ui/main/main.tsx';
 import Login from './ui/auth/login.tsx';
 import SignUp from './ui/auth/signup.tsx';
+import Write from './ui/write/write.tsx';
 
 function App() {
   return(
@@ -18,6 +19,7 @@ function App() {
       <Route path='/main' element ={<Main />} />
       <Route path='/login' element={<Login />} />
       <Route path='/sign' element={<SignUp />} />
+      <Route path='/write' element={<Write />} />
     </Routes>
     <Footer />
   </Router>
