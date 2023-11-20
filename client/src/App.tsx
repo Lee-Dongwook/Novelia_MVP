@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
+import ProtectedRoutes  from './lib/protectedRoutes.tsx';
 import store from './store/index.ts';
 
 import Header from './ui/header/header.tsx';
@@ -22,6 +23,11 @@ function App() {
       <Route path='/sign' element={<SignUp />} />
       <Route path='/main' element ={<Main />} />
       <Route path='/write' element={<Write />} />
+      <Route path='/protect' element = {
+        <ProtectedRoutes>
+          <Main />
+        </ProtectedRoutes>
+      }/>
     </Routes>
     <Footer />
   </Router>
