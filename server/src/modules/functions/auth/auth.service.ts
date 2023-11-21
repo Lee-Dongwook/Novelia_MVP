@@ -8,8 +8,8 @@ import {
 import { JwtService } from '@nestjs/jwt';
 import { LoginAuthDto } from './dto/login-auth.dto';
 import * as bcrypt from 'bcrypt';
-import { UsersService } from 'src/modules/models/users/users.service';
-import { CreateUserDto } from 'src/modules/models/users/dto/create-user.dto';
+import { UsersService } from '../../../modules/models/users/users.service';
+import { CreateUserDto } from '../../../modules/models/users/dto/create-user.dto';
 import axios from 'axios';
 import { SocialLoginRequestDto } from './dto/social-login-auth.dto';
 

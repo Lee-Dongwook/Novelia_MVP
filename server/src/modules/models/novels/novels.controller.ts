@@ -19,9 +19,9 @@ import {
   ApiOperation,
   ApiTags,
 } from '@nestjs/swagger';
-import { JwtAuthGuard } from 'src/modules/functions/auth/jwt/jwt.guard';
+import { JwtAuthGuard } from '../../../modules/functions/auth/jwt/jwt.guard';
 
-import { CurrentUser } from 'src/commons/common/decorators/user.decorator';
+import { CurrentUser } from '../../../commons/common/decorators/user.decorator';
 import { TitleContentDto } from './dto/title-content.dto';
 import { User } from '../users/entities/user.entity';
 import { CreateNovelBodyDataDto } from './dto/crate-novel-body-data.dto';

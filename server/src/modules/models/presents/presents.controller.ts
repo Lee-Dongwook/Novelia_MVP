@@ -13,7 +13,7 @@ import { PresentsService } from './presents.service';
 import { CreatePresentDto } from './dto/create-present.dto';
 import { UpdatePresentDto } from './dto/update-present.dto';
 import { ApiOperation, ApiTags, ApiBearerAuth } from '@nestjs/swagger';
-import { CurrentUser } from 'src/commons/common/decorators/user.decorator';
+import { CurrentUser } from '../../../commons/common/decorators/user.decorator';
 import { User } from '../users/entities/user.entity';
 
 @ApiTags('presents')

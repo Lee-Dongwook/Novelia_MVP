@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsDate, IsNotEmpty, IsNumber, IsString } from 'class-validator';
-import { genreTypes } from 'src/commons/types/genres.type';
+import { genreTypes } from '../../../../commons/types/genres.type';
 
 export class TitleContentDto {
   @ApiProperty({

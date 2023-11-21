@@ -12,9 +12,9 @@ import { ShortReviewsService } from './short-reviews.service';
 import { CreateShortReviewDto } from './dto/create-short-review.dto';
 import { UpdateShortReviewDto } from './dto/update-short-review.dto';
 import { ApiBearerAuth, ApiOperation, ApiTags } from '@nestjs/swagger';
-import { JwtAuthGuard } from 'src/modules/functions/auth/jwt/jwt.guard';
+import { JwtAuthGuard } from '../../../modules/functions/auth/jwt/jwt.guard';
 import { User } from '../users/entities/user.entity';
-import { CurrentUser } from 'src/commons/common/decorators/user.decorator';
+import { CurrentUser } from '../../../commons/common/decorators/user.decorator';
 
 @ApiTags('short-reviews')
 @Controller('short-reviews')

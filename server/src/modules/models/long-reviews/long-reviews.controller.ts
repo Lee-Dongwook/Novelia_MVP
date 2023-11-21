@@ -12,8 +12,8 @@ import { LongReviewsService } from './long-reviews.service';
 import { CreateLongReviewDto } from './dto/create-long-review.dto';
 import { UpdateLongReviewDto } from './dto/update-long-review.dto';
 import { ApiBearerAuth, ApiOperation, ApiTags } from '@nestjs/swagger';
-import { JwtAuthGuard } from 'src/modules/functions/auth/jwt/jwt.guard';
-import { CurrentUser } from 'src/commons/common/decorators/user.decorator';
+import { JwtAuthGuard } from '../../../modules/functions/auth/jwt/jwt.guard';
+import { CurrentUser } from '../../../commons/common/decorators/user.decorator';
 import { User } from '../users/entities/user.entity';
 
 @ApiTags('long-reviews')

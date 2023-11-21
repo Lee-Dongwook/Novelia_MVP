@@ -12,8 +12,8 @@ import {
   import { CreateReportDto } from './dto/create-report.dto';
   import { UpdateReportDto } from './dto/update-report.dto';
   import { ApiBearerAuth, ApiOperation, ApiTags } from '@nestjs/swagger';
-  import { JwtAuthGuard } from 'src/modules/functions/auth/jwt/jwt.guard';
-  import { CurrentUser } from 'src/commons/common/decorators/user.decorator';
+  import { JwtAuthGuard } from '../../../modules/functions/auth/jwt/jwt.guard';
+  import { CurrentUser } from '../../../commons/common/decorators/user.decorator';
   import { User } from '../users/entities/user.entity';
   
   @ApiTags('reports')

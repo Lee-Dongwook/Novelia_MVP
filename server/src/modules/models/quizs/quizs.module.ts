@@ -3,7 +3,7 @@ import { QuizsService } from './quizs.service';
 import { QuizsController } from './quizs.controller';
 import { Quiz } from './entities/quiz.entity';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Novel } from 'src/modules/models/novels/entities/novel.entity';
+import { Novel } from '../../../modules/models/novels/entities/novel.entity';
 import { NovelsModule } from '../novels/novels.module';
 
 @Module({
