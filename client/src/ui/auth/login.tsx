@@ -1,10 +1,10 @@
-import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+// import { useState } from 'react';
+// import { useNavigate } from 'react-router-dom';
 import { Form, Input, Button } from 'antd';
 import styles from './login.module.css'
 
 function Login() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const [form] = Form.useForm();
 
   return (

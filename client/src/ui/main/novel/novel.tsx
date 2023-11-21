@@ -1,11 +1,13 @@
-import React, { useState } from "react";
-import { Card, Button, Image } from "antd";
+import { useState } from "react";
+import { Card, Button } from "antd";
 import type { Novel } from "@/domain/novel";
 import { initNovelList } from "./initNovelList";
 const { Meta } = Card;
 
 const NovelList = () => {
   const [list, setList] = useState<Novel[]>(initNovelList);
+
+  console.log(setList);
   return (
     <>
       {list.map((post) => (

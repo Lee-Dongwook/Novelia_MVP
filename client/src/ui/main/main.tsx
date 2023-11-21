@@ -1,4 +1,4 @@
-import {useState} from 'react';
+// import {useState} from 'react';
 import { Button, Carousel, Image } from 'antd';
 import styles from './main.module.css';
 import { imageSliderConfig } from '../../lib/imageSliderConfig';

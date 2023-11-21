@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Row, Col, Input, Drawer } from 'antd';
 import styles from './header.module.css';
 import headerLogo from '../../image/headerLogo.png';
