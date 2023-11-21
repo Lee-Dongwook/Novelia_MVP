@@ -1,16 +1,16 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import ProtectedRoutes  from './lib/protectedRoutes.tsx';
-import store from './store/index.ts';
+import ProtectedRoutes  from './lib/protectedRoutes';
+import store from './store/index';
 
-import Header from './ui/header/header.tsx';
-import Footer from './ui/footer/footer.tsx';
+import Header from './ui/header/header';
+import Footer from './ui/footer/footer';
 
-import Start from './ui/start/start.tsx';
-import Main from './ui/main/main.tsx';
-import Login from './ui/auth/login.tsx';
-import SignUp from './ui/auth/signup.tsx';
-import Write from './ui/write/write.tsx';
+import Start from './ui/start/start';
+import Main from './ui/main/main';
+import Login from './ui/auth/login';
+import SignUp from './ui/auth/signup';
+import Write from './ui/write/write';
 
 function App() {
   return(
